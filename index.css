@@ -1,0 +1,64 @@
+Header{
+    background-color: #b3d88d;
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+H1{
+    border-width:4px;
+    border-style:dotted;
+    border-color:#a3a3a3;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+}
+Section{
+    text-align: center;
+    color: rgb(250, 252, 252);
+}
+
+Article{
+    background-color:#cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 80px;
+    padding: 20px;
+}
+H2{
+    color: #f7f7f7;
+    text-align:left;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+
+}
+H3{
+        color:rgb(255, 255, 255);
+        text-align:left;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 20px;
+
+}
+H4{
+    color:rgb(255, 255, 255);
+    text-align:left;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+
+}
+H5{
+    color:rgb(255, 255, 255);
+    text-align:left;
+    font-family: Trebuchet MS, sans-serif; 
+    font-size: 20px;
+
+
+}
+footer{
+    text-align: right;
+    background-color: #b3d88d;
+    padding: 7px;
+}
+
