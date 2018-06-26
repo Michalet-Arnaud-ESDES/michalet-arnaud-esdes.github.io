@@ -1,0 +1,428 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+p
+{
+    font-size: 14px; 
+}
+
+h1
+{
+    margin: 50px;
+    color: black;
+    background-size: 40%;     
+}
+  
+
+h2 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    padding: 29px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+header{
+    background: linear-gradient(
+ rgba(0, 0, 0, 0.24), 
+ rgba(0, 0, 0, 0.24)),url(img/food.jpg);
+    background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content : space-between;
+    align-items: center;
+}
+.partie-header-gauche{
+    width: 25%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.partie-header-gauche img{
+    margin-top: 10%;
+}
+.partie-header-centre{
+    width: 25%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.3s cubic-bezier(1, 0, 0, 1); 
+    animation: enter 2s ease-in-out;
+
+
+}
+.partie-header-centre img{
+    width: 70%;
+    margin-top: 60%;
+}
+
+.partie-header-centre h2:hover{
+    transition: color .1s linear;
+    background-color: white;
+    color: rgb(235, 92, 72);
+    border-color: white;
+}
+.partie-header-droite{
+    width: 25%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.partie-header-droite h2{
+    margin-top: 10%;
+}
+.section1{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tule-food{
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+}
+.tule-food img{
+    width: 100%;
+}
+.tule-food h2{
+    color: black;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tule-food p{
+    color: #686868;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.tule-food img{
+    width: 104px;
+}
+
+.section2{
+    background-image:url(img/foodhallen.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.section2 h2{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-color:  rgb(235, 92, 72);
+    border-radius: 8px;
+    padding: 29px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgb(235, 92, 72);
+    background-color: white;
+    
+}
+.section2 h2:hover{
+    transition: color .1s linear;
+    background-color: rgb(235, 92, 72);
+    color: white;
+    border-color: white;
+
+}
+.section3{
+    background-color:#00578e;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.manger{
+    background-size: cover;
+    min-height: 50vh;
+    width: 70%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.manger h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size:28px;
+    font-weight:400;
+    color: #e2b800;
+}
+
+.manger p{
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+    font-weight:400;
+    color:white;
+}
+
+.manger a{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px white solid;
+    border-radius: 8px;
+    color: white;
+    padding: 29px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.manger a:hover{
+    transition: color .1s linear;
+    background-color: white;
+    color: #00578e;
+    border-color: white;
+
+}
+
+.img-manger{
+    min-height: 50vh;
+}
+.img-manger img{
+    max-width: 30vh;
+    margin: 80px;
+}
+
+.feter{
+    background-size: cover;
+    min-height: 50vh;
+    width: 80%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.section4{
+	min-height: 70vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.feter h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size:28px;
+    font-weight:400;
+    color: #e2b800;
+}
+
+.feter p{
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+    font-weight:400;
+    color: black;
+}
+
+.feter a{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px black solid;
+    border-radius: 8px;
+    color: black;
+    padding: 29px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.feter a:hover{
+    transition: color .1s linear;
+    background-color: #00578e;
+    color: white;
+    border-color: white;
+}
+
+.img-feter{
+    min-height: 50vh;
+}
+.img-feter img{
+    max-width: 30vh;
+    margin: 80px;
+}
+
+.blog{
+    background-color: rgb(245, 245, 245);
+
+}
+
+.blogfood{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size:28px;
+    font-weight:400;
+    color: #e2b800;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.blog p{
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+    font-weight:400;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.blog a{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px black solid;
+    border-radius: 8px;
+    color: black;
+    padding: 29px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.blog a:hover{
+    transition: color .1s linear;
+    background-color: rgb(235, 92, 72);
+    color: rgb(245, 245, 245);
+    border-color: white
+
+}
+
+footer {
+    background-color: #00578e;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 10%;
+}
+.final{
+	width: 25%;
+}
+.final h2{
+    color: white;
+    border: none;
+    margin-top: 20%;
+}
+
+.final p{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: rgb(217, 217, 217);
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.final button{
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-color:  rgb(235, 92, 72);
+    border-radius: 8px;
+    padding: 15px; 
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: white;
+    background-color: rgb(235, 92, 72);
+    margin-top: 15px;
+}
+
+/**RESPONSIVE**/
+	/**MOBILE**/
+    @media only screen and (max-width: 600px){
+        #titre-header{
+            font-size: 40px;
+        }
+        #titre2-header{
+            font-size: 15px;
+        }
+        #content-header{
+            padding: 10px;
+        }
+        #banniere1{
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        article{
+            width: 60%;
+        }
+        
+    }
+        /**TABLET**/
+    @media only screen and (min-width:600px) and (max-width:900px){
+        #banniere1{
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }	
+        article{
+                width: 45%;
+        }
+    }
+
+    /** ANIMATION **/
+    @keyframes enter {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+        }
+        
+
+
