@@ -3,10 +3,10 @@ Projet cours codage ESDES
 
   Le Hangar à gamelle ! 
 
-Bonjour je me présente Arnaud MICHALET éleve en 4 éme année à l'ESDES en Master Digital Business. Vous trouverez ci-dessous un site en rapport avec un potentiel projet futur " Le Hanger à Gamelle ".
-En effet j'ai toujours pensé développé un lieu de vie tourné autour de la cuisine et de la communion entre différentes cultures. Un grand espace de vie, ou de multiples facettes culinaires sont centralisées afin de satisfaire le palai du plus grand nombre. 
+Bonjour je me présente Arnaud MICHALET éleve en 4 éme année à l'ESDES en Master Digital Business. Vous trouverez ci-dessous un site en rapport avec un potentiel projet futur " Le Hangar à Gamelle ".
+En effet, j'ai toujours pensé développé un lieu de vie tourné autour de la cuisine et de la communion entre différentes cultures. Un grand espace de vie, ou de multiples facettes culinaires sont centralisées afin de satisfaire le palais du plus grand nombre. 
 
-Ce site à donc pour but de présenter le projet, le cadre, les différentes échopes, le retour utilisateur, et les différents événements qui vont suivre les saisons tout au long de l'année. Cela est directement accéssible via le skroll.
+Ce site à donc pour but de présenter le projet, le cadre, les différentes échopes, le retour utilisateur, et les différents événements qui vont suivre les saisons tout au long de l'année. Cela est directement accéssible via le scroll.
 
 Au niveau du temps de développement, j'ai mis énormément de temps afin de trouver un projet innovant mais surtout qui m'interressait à développer. Je voulais quelque chose de concret, qui peut être sera la fer de lance d'une future carriére professionnelle ( Qui sait ?!)
 
@@ -17,6 +17,7 @@ De ce fait on trouve sur cette première page :
 - Une image de fond
 - Un filtre d'image ( pour adoussir la visibilité ) 
 - Un logo avec animation au centre de la page
+- Un logo contractée en haut à gauche
 - Un bouton call to action " Suivre les actualités ". Menant sur une page permettant de s'inscrire à notre newsletter.
 - Un bouton menu qui n'est pas actif.
 
@@ -39,16 +40,16 @@ Les deux prochaines rubriques sont assez similaires ou nous retrouvons :
 
 Enfin nous retrouvons le pied de page qui est plus simple : 
 
-- Différentes colonnes qui sont affichés en ligne 
+- Différentes colonnes qui sont affichées en ligne 
 - Un accés à la newsletter dans le pied de page 
 - Un cours descriptif de l'accés et du lieu du hangar à Gamelle 
 
 Durant cette année de codage, j'ai pris énormément de plaisir à développer mon site même si je partais de loin et que cela n'a pas était facile.
-J'ai mis du temps à comprendre cette logique, et à mettre en forme les différentes éléments réfléchis en amont. Cependant je suis fier de ce que j'ai accomplit. 
+J'ai mis du temps à comprendre cette logique, et à mettre en forme les différentes éléments réfléchis en amont. Cependant je suis fier de ce que j'ai accompli. 
 
 Cependant, plusieurs développements futurs sont à mettre en place pour une finalisation du site. Dans un premier temps, développer un menu déroulant qui se figera au scroll pour una accés plus rapide. 
 Dans un second temps, finaliser la visite du hangar avec une vidéo 360 degrés représentant les vrais lieux. 
 Finaliser la mise en place du planning afin que celui-ci marche en temps réel et efficacement.
 Finaliser le plan d'accés.
 
-Pour être plus bref, ce site arrivera à bout du moins au bout de ma pensée quand ce possible projet aura une vision concréte. Ce n'est pas d'actualité au jour J mais ce développement de site m'aura permis de me projeter et d'imaginer un futur culinaire bien remplie !
+Pour être plus bref, ce site arrivera à bout du moins au bout de ma pensée quand ce possible projet aura une vision concréte. Ce n'est pas d'actualité au jour J mais ce développement de site m'aura permis de me projeter et d'imaginer un futur culinaire bien rempli !
